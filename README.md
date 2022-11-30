@@ -1,0 +1,18 @@
+## full_oppo6771-user 10 QP1A.190711.020 7604ad4e2b1328a1 release-keys
+- Manufacturer: oppo
+- Platform: mt6771
+- Codename: OP4C4BL1
+- Brand: OPPO
+- Flavor: full_oppo6771-user
+- Release Version: 10
+- Id: QP1A.190711.020
+- Incremental: 7604ad4e2b1328a1
+- Tags: release-keys
+- CPU Abilist: arm64-v8a,armeabi-v7a,armeabi
+- A/B Device: false
+- Locale: en-US
+- Screen Density: undefined
+- Fingerprint: 
+- OTA version: CPH1989EX_11.C.18_1180_202101130235
+- Branch: CPH1989EX_11.C.18_1180_202101130235-random-text-224321888912138
+- Repo: oppo_op4c4bl1_dump
