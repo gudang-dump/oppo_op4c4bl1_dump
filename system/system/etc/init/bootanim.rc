@@ -1,0 +1,15 @@
+#ifdef VENDOR_EDIT
+#Wei.He@Swdp.Android.Boot.BootAnimation, 2014/08/05, modify for oppo startup & shutdown animation
+service bootanim /system/bin/bootanimation
+    class core
+    user system
+    group media graphics audio
+    disabled
+    oneshot
+service rbootanim /system/bin/bootanimation -r
+    class core
+    user root
+    group graphics audio media
+    disabled
+    oneshot
+#endif /* VENDOR_EDIT */

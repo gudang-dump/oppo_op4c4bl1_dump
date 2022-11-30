@@ -1,0 +1,4 @@
+com.heytap.pictorial
+com.coloros.safesdkproxy
+com.nearme.atlas
+com.coloros.musiclink

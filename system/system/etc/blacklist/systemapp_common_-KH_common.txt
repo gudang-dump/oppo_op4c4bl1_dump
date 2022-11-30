@@ -1,0 +1,3 @@
+com.coloros.aftersalesservice
+com.heytap.cloud
+com.coloros.cloud

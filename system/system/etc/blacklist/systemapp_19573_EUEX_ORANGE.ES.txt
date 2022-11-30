@@ -1,0 +1,4 @@
+com.android.mms
+com.android.contacts
+com.android.incallui
+com.coloros.smartdrive

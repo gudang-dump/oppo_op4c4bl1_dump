@@ -1,0 +1,5 @@
+<!-- This file is used by Exp Region: IR.  DO NOT MODIFY. -->
+<permissions>
+  <feature name="com.oppo.android.feature.PAI" />
+    <feature name="oppo.phone.video.call.hold"/>
+</permissions>

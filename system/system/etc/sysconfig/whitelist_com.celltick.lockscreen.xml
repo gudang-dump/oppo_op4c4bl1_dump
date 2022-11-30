@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><config>
+  <!-- #ifdef VENDOR_EDIT -->
+  <!-- Zouxin@PSW.AD.Operator 2020/6/29, Add for Start apk Permissions Whitelist -->
+  <!--The Start must be whitelisted so they are always able to run.-->
+  <allow-in-power-save package="com.celltick.lockscreen"/>
+  <allow-in-data-usage-save package="com.celltick.lockscreen"/>
+  <app-link package="com.celltick.lockscreen"/>
+  <!-- #endif //VENDOR_EDIT -->
+</config>

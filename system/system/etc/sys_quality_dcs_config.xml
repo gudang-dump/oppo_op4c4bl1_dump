@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<filter-conf>
+    <version>20190807</version>
+    <versioncode>1</versioncode>
+    <isOpen>1</isOpen>
+    <!--event id = quality moudle id + quality project id + certain event id.  The desc will be used as really event id which will upload to dcs, please make sure that they would not repeat-->
+    <!--quality means quality module, now id 100 means stability, which will be the first three number in eventid-->
+    <quality
+        qualityid="100" qualitydesc="Stability">
+        <!--100 + 10 + id:   100 means stability; 10 means feedback; and id means broken point.-->
+        <event id="100100001" desc="reboot" chn_desc="重启"/>
+        <event id="100100002" desc="kernel_panic" chn_desc="内核崩溃重启"/>
+        <event id="100100003" desc="system_server_crash" chn_desc="上层服务重启"/>
+        <event id="100100004" desc="dealth_healer_panic" chn_desc="death healer主动重启"/>
+        <event id="100100005" desc="io_hung_panic" chn_desc="io卡死转重启"/>
+        <event id="100100006" desc="ocp" chn_desc="过流关机"/>
+        <event id="100100007" desc="pmic_wd" chn_desc="pmic异常"/>
+        <event id="100100008" desc="MTK_HWT" chn_desc="MTK cpu watchdog"/>
+        <event id="100100009" desc="MTK_Hardware_Reboot" chn_desc="MTK外置模块重置"/>
+        <event id="100100010" desc="MTK_Hang" chn_desc="MTK关键服务卡死"/>
+        <event id="100100011" desc="reboot_from_blocked" chn_desc="关键进程卡死转整机重启"/>
+        <event id="100100012" desc="android_reboot_from_blocked" chn_desc="关键进程卡死转上层重启"/>
+        <event id="100100013" desc="unknown_reboot" chn_desc="未知原因整机重启(反向重启)"/>
+        <!--100 + 20 + id:  100 means stability; 20 means phoenix, which will monitor the phone can not boot; and id means broken point.-->
+        <event id="100200001" desc="hang_on_boot_logo" chn_desc="开机卡静态LOGO"/>
+        <event id="100200002" desc="hang_on_bootanim" chn_desc="开机卡动态LOGO"/>
+        <event id="100200003" desc="shutdown_error" chn_desc="关机耗时异常"/>
+        <!--100 + 30 + id:  100 means stability; 30 means black or frozen screen monitor, include hecate; and id means broken point.-->
+        <event id="100300001" desc="hecate_blank_screen" chn_desc="hecate黑屏"/>
+        <event id="100300002" desc="hecate_surfaceflinger_hang" chn_desc="hecate显示服务卡住"/>
+        <event id="100300003" desc="hecate_HWC_Hang" chn_desc="hecate HWC卡住"/>
+    </quality>
+    <quality
+        qualityid="200" qualitydesc="Performance">
+    </quality>
+</filter-conf>

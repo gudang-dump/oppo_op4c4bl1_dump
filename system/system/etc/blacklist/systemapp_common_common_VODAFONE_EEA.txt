@@ -1,0 +1,6 @@
+com.android.mms
+com.coloros.smartdrive
+com.coloros.sceneservice
+com.coloros.assistantscreen
+com.android.incallui
+com.android.contacts

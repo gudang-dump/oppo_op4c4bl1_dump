@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HealthInfoMap xmlns:app="http://schemas.android.com/apk/res-auto">
+    <HealthInfo app:healthinfotype="StorageHealthInfo">
+        <HealthInfoItem app:healthinfoname="type" app:offset="0" app:healthinfolength="1"
+            app:healthinfohighFirst="false" app:healthinfodescription="The Storage Type" />
+        <HealthInfoItem app:healthinfoname="jedecId" app:offset="1" app:healthinfolength="2"
+            app:healthinfohighFirst="false" app:healthinfodescription="ManufactureerID" />
+        <HealthInfoItem app:healthinfoname="ManufactureDate" app:offset="3" app:healthinfolength="4"
+            app:healthinfohighFirst="false" app:healthinfodescription="wManufactureDate" />
+        <HealthInfoItem app:healthinfoname="StorageDev" app:offset="7" app:healthinfolength="8" app:healthinfohighFirst="false"
+            app:healthinfodescription="firmware version" />
+
+        <HealthInfoItem app:healthinfoname="readReclaim" app:offset="188" app:healthinfolength="4" app:healthinfohighFirst="false"
+            app:healthinfodescription="bitfilp is more than ecc warning threadhold" />
+        <HealthInfoItem app:healthinfoname="TBW" app:offset="192" app:healthinfolength="4" app:healthinfohighFirst="false"
+            app:healthinfodescription="write size(100MBytes)" />
+        <HealthInfoItem app:healthinfoname="badBlock_runtim" app:offset="244" app:healthinfolength="4" app:healthinfohighFirst="false"
+            app:healthinfodescription="" />
+        <HealthInfoItem app:healthinfoname="eraseCacheCntAvg" app:offset="260" app:healthinfolength="4" app:healthinfohighFirst="false"
+            app:healthinfodescription="" />
+        <HealthInfoItem app:healthinfoname="eraseXLCCntAvg" app:offset="272" app:healthinfolength="4" app:healthinfohighFirst="false"
+            app:healthinfodescription="" />
+        <HealthInfoItem app:healthinfoname="StorageInfo" app:offset="316" app:healthinfolength="512" app:healthinfohighFirst="false"
+            app:healthinfodescription="StorageInfo" />
+    </HealthInfo>
+</HealthInfoMap>

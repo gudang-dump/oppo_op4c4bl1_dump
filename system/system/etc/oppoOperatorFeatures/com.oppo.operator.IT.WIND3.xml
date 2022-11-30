@@ -1,0 +1,10 @@
+<!-- This file is used by Exp Region: IR.  DO NOT MODIFY. -->
+<permissions>
+  <feature name="com.oppo.android.feature.PAI" />
+  <feature name="oppo.mms.create.mode" />
+  <feature name="oppo.mms.create.mode.default.warning" />
+  <feature name="oppo.mms.disable.text.sms.convert.mms" />
+  <feature name="oppo.default.browser.chrome" />
+  <feature name="oppo.phone.show.3G.only" />
+  <feature name="oppo.customize.screen.timeout.one_minute" />
+</permissions>

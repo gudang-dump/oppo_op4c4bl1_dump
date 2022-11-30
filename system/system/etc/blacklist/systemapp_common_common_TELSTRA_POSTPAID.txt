@@ -1,0 +1,3 @@
+com.facebook.appmanager
+com.facebook.services
+com.facebook.system

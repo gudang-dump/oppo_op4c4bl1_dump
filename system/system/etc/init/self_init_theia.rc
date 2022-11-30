@@ -1,0 +1,26 @@
+##########################################################
+# Copyright (C), 2008-2018, OPPO Mobile Comm Corp., Ltd
+# VENDOR_EDIT
+# File: init.oppo.se.rc
+#
+# Description:
+#	Definitions for theia service.
+#
+# Version: 1.0
+# Date created: 2019/11/25
+# Author: Gang.Yang@oppo.com
+#
+# --------------------------- Revision History: ------------------------------------
+# <version>		<date>		<author>		<desc>
+# Revision 1.0		2019/11/25	Gang.Yang@oppo.com	Created
+#######################################################
+
+#ifdef COLOROS_EDIT
+#Gang.Yang@oppo.com, 2019/11/08, Add for record theia events
+
+service oppo_theias /system/bin/oppo_theia
+    class late_start
+    user system
+    group root system
+    socket theia_socket stream 666 system system
+# endif /* COLOROS_EDIT */

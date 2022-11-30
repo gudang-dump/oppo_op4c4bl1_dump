@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HealthInfoMap xmlns:app="http://schemas.android.com/apk/res-auto">
+    <HealthInfo app:name="healthInfoItem">
+        <CommonHealthInfoItem app:name="MarketName"/>
+        <CommonHealthInfoItem app:name="StorageSize"/>
+        <CommonHealthInfoItem app:name="AvailableSize"/>
+        <CommonHealthInfoItem app:name="StorageDev"/>
+        <CommonHealthInfoItem app:name="MemoryDev"/>
+        <CommonHealthInfoItem app:name="ManufactureDate"/>
+        <CommonHealthInfoItem app:name="LifeTime"/>
+        <CommonHealthInfoItem app:name="RecordTime"/>
+        <CommonHealthInfoItem app:name="FailCount"/>
+        <HealthInfoItem app:name="readReclaim"/>
+        <HealthInfoItem app:name="badBlock_runtim"/>
+        <HealthInfoItem app:name="TBW"/>
+        <HealthInfoItem app:name="eraseCacheCntAvg"/>
+        <HealthInfoItem app:name="eraseXLCCntAvg"/>
+    </HealthInfo>
+</HealthInfoMap>

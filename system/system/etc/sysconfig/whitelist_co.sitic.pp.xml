@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><config>
+  <!-- #ifdef VENDOR_EDIT -->
+  <!-- Zouxin@PSW.AD.Operator.152337 ,2020/6/29, Add for Sysdll apk Permissions Whitelist -->
+  <!--The PhoneProtect must be whitelisted so they are always able to run.-->
+  <allow-in-power-save package="co.sitic.pp"/>
+  <allow-in-data-usage-save package="co.sitic.pp"/>
+  <app-link package="co.sitic.pp"/>
+  <!-- #endif //VENDOR_EDIT -->
+</config>

@@ -1,0 +1,13 @@
+#ifdef VENDOR_EDIT
+#PengNan@BSP.CHG.Basic, 2017/09/07, add for compatibling tow fuel_gauge.
+service fuelgauged /vendor/bin/fuelgauged
+    class core
+    user root
+    group root
+
+service fuelgauged_nvram /vendor/bin/fuelgauged_nvram
+    class main
+    user root
+    group root
+    oneshot
+#endif /*VENDOR_EDIT*/

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+    <!--function for rom update parameter-->
+    <version>2020083120</version>
+    <isOpen>1</isOpen>
+    <filter-name>sys_quality_config</filter-name>
+    <switch name="TotalSwitch" value="1"></switch>
+    <switch name="UpdateCpuStats" value="1"></switch>
+    <switch name="LaunchTime" value="1"></switch>
+    <switch name="BlackScreen" value="1"></switch>
+    <switch name="SlowOperation" value="1"></switch>
+    <switch name="Iozone1" value="0"></switch>
+    <switch name="Iozone2" value="0"></switch>
+    <switch name="Choreographer" value="1"></switch>
+    <switch name="IONCountSwitch" value="1"></switch>
+    <switch name="PartitionCheckSwitch" value="0"></switch>
+    <switch name="FileCheckSwitch" value="0"></switch>
+    <switch name="ExtFragSwitch" value="0"></switch>
+    <switch name="LowMemLog" value="10"></switch>
+    <switch name="LowMemDetailLog" value="0"></switch>
+    <switch name="memmonitorLog" value="0"></switch>
+    <switch name="memleakLog" value="0"></switch>
+    <switch name="launchLog" value="1"></switch>
+    <switch name="fsyncLog" value="0"></switch>
+    <switch name="systraceLog" value="1"></switch>
+    <switch name="forceStartSystraceLog" value="0"></switch>
+    <switch name="MemoryLeakLog" value="1"></switch>
+    <switch name="memmallocLog" value="0"></switch>
+    <switch name="BackgroundDexopt" value="1"></switch>
+    <command result="ps-A.txt">ps -A -T</command>
+    <switch name="of2fsSwitch" value="0"></switch>
+    <execute name="ohmctrl" value="1048575"></execute>
+    <execute name="ohmlogon" value="8197"></execute>
+    <execute name="ohm_action_ctrl" value="1"></execute>
+    <execute name="ohmtrig" value="466944"></execute>
+    <!--    <execute name="ohmparaupdate" value="echo ohmparaupdate > proc/oplus_healthinfo/para_update"></execute>-->
+    <execute name="sqlitectrl" value="3"></execute>
+    <param name="lowmem_system" value="600000"></param>
+    <param name="lowmem_com.oppo.launcher" value="350000"></param>
+    <param name="lowmem_com.android.systemui" value="500000"></param>
+    <param name="lowmem_com.coloros.assistantscreen" value="300000"></param>
+    <param name="lowmem_android.process.media" value="225000"></param>
+    <param name="lowmem_com.android.phone" value="300000"></param>
+    <param name="lowmem_com.android.incallui" value="150000"></param>
+    <param name="lowmem_com.heytap.mcs" value="200000"></param>
+    <param name="debugleakprocess" value="com.coloros.appmanager"></param>
+    <param name="debugleaksize" value="100"></param>
+    <param name="debugtype" value="0"></param>
+
+    <!-- for performance test tools -->
+    <benchTool type="tempConfig" plat="msmnile" tempNode="/sys/devices/virtual/thermal/thermal_zone68/temp"></benchTool>
+    <benchTool type="benchApp" packageName="com.antutu" enterActivity="ActivityMain" startActivity="ActivityScoreBench" finishedActivity="ActivityTestResultDetails"></benchTool>
+    <benchTool type="benchApp" packageName="com.ludashi" enterActivity="ui.activity.MainTabActivity" startActivity="BenchmarkActivity" finishedActivity="BenchScoreInfoActivity"></benchTool>
+
+</filter-conf>

@@ -1,0 +1,18 @@
+service omedia /system/bin/omedia
+    class main
+    user system
+    group system readproc root
+    capabilities SYS_NICE
+    disabled
+
+on property:sys.boot_completed=1 && property:persist.sys.omedia.enable=0
+    stop omedia
+
+on property:sys.boot_completed=1 && property:persist.sys.omedia.enable=1
+    start omedia
+
+on property:sys.boot_completed=1 && property:persist.sys.omedia.enable=2
+    start omedia
+
+on post-fs-data
+    mkdir /data/oppo_lib/omedia 0700 system system
