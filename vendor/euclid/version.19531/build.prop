@@ -1,0 +1,66 @@
+# build porp start
+ro.separate.soft=19531
+ro.product.authentication=0
+ro.product.hw=19531
+ro.product.sar=1.7
+ro.sys.reserve.integrate=true
+ro.oppo.mtk_gps_mpe=1
+persist.sys.oppo.fusionlight=true
+persist.sys.oppo.proximity=true
+ro.oppo.market.name=OPPO Reno2 F
+ro.vendor.product.device.oem=OP4C4BL1
+
+# InitEnv
+
+# Build.java
+ro.build.id=QP1A.190711.020
+ro.build.display.id=CPH1989EX_11_C.18
+ro.product.manufacturer=OPPO
+ro.product.brand=OPPO
+ro.product.model=CPH1989
+ro.product.name=CPH1989
+ro.product.device=OP4C4BL1
+ro.build.version.incremental=1594890101
+ro.build.version.release=10
+ro.build.version.base_os=OPPO/CPH1989/OP4C4BL1:10/QP1A.190711.020/1594884000:user/release-keys
+ro.build.fingerprint=OPPO/CPH1989/OP4C4BL1:10/QP1A.190711.020/1594890101:user/release-keys
+ro.odm.build.fingerprint=OPPO/CPH1989/OP4C4BL1:10/QP1A.190711.020/1594890101:user/release-keys
+ro.odm.build.version.incremental=1594890101
+ro.product.odm.brand=OPPO
+ro.product.odm.device=OP4C4BL1
+ro.product.odm.manufacturer=OPPO
+ro.product.odm.model=CPH1989
+ro.product.odm.name=CPH1989
+ro.system.build.fingerprint=OPPO/CPH1989/OP4C4BL1:10/QP1A.190711.020/1594890101:user/release-keys
+ro.system.build.version.incremental=1594890101
+ro.product.system.brand=OPPO
+ro.product.system.device=OP4C4BL1
+ro.product.system.manufacturer=OPPO
+ro.product.system.model=CPH1989
+ro.product.system.name=CPH1989
+ro.bootimage.build.fingerprint=OPPO/CPH1989/OP4C4BL1:10/QP1A.190711.020/1594890101:user/release-keys
+ro.bootimage.build.version.incremental=1594890101
+ro.product.bootimage.brand=OPPO
+ro.product.bootimage.device=OP4C4BL1
+ro.product.bootimage.manufacturer=OPPO
+ro.product.bootimage.model=CPH1989
+ro.product.bootimage.name=CPH1989
+ro.vendor.build.fingerprint=OPPO/CPH1989/OP4C4BL1:10/QP1A.190711.020/1594890101:user/release-keys
+ro.vendor.build.version.incremental=1594890101
+ro.product.vendor.brand=OPPO
+ro.product.vendor.device=OP4C4BL1
+ro.product.vendor.manufacturer=OPPO
+ro.product.vendor.model=CPH1989
+ro.product.vendor.name=CPH1989
+
+# GMS
+ro.com.google.clientidbase=android-oppo
+
+# Mediatek
+ro.mediatek.version.release=CPH1989_11_C.18_210113
+ro.vendor.mediatek.version.release=CPH1989_11_C.18_210113
+ro.camera.hfr.enable=1
+ro.camera.videoeis.enable=1
+ro.camera.temperature.limit=435
+ro.camera.portrait.blur.level.enable=1
+ro.camera.high.resolution.video.filter.enable=1

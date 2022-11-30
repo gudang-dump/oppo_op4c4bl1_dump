@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PhoneColors>
+    <!--PhoneColor.name：手机颜色的唯一标识，由项目、手软提供-->
+    <!--ColorDescription：手机颜色描述，描述手机颜色-->
+    <!--ColorDescriptionCN：手机颜色描述（中文），描述手机颜色-->
+    <!--DefaultTheme：该颜色手机对应的主题，可选为default（对应/system/media/theme/default/下默认主题）、/system/media/themeInner/下内置主题的文件名，不包含文件后缀（如.theme）-->
+    <!--ThemeDescriptionCN：主题描述（中文），描述主题名称-->
+    <!--手机颜色唯一标识、手机颜色描述由项目或手软提供，对应主题由桌面主题组根据UI要求配置-->
+    <!--该文件由OS产品中心桌面主题组维护-->
+
+    <PhoneColor name="FFF5FEFF">
+        <ColorDescription>Sky White</ColorDescription>
+        <ColorDescriptionCN>晨雾白</ColorDescriptionCN>
+        <DefaultTheme_lock>oppo_default_wallpaper_eos</DefaultTheme_lock>
+        <DefaultTheme_system>oppo_default_wallpaper_eos</DefaultTheme_system>
+        <ThemeDescriptionCN>晨光女神</ThemeDescriptionCN>
+    </PhoneColor>
+
+    <PhoneColor name="FF1A4B4F">
+        <ColorDescription>Lake Green</ColorDescription>
+        <ColorDescriptionCN>青湖色</ColorDescriptionCN>
+        <DefaultTheme_lock>oppo_default_wallpaper_milkyway</DefaultTheme_lock>
+        <DefaultTheme_system>oppo_default_wallpaper_milkyway</DefaultTheme_system>
+        <ThemeDescriptionCN>海绿银河</ThemeDescriptionCN>
+    </PhoneColor>
+
+    <PhoneColor name="FF399BCF">
+        <ColorDescription>Nebula Green</ColorDescription>
+        <ColorDescriptionCN>极夜星云</ColorDescriptionCN>
+        <DefaultTheme_lock>oppo_default_wallpaper_aurora</DefaultTheme_lock>
+        <DefaultTheme_system>oppo_default_wallpaper_aurora</DefaultTheme_system>
+        <ThemeDescriptionCN>缤彩极光</ThemeDescriptionCN>
+    </PhoneColor>
+</PhoneColors>

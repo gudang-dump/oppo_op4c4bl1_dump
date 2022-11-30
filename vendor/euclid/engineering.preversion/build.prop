@@ -1,0 +1,16 @@
+# build porp start
+
+# Log
+ro.sys.engineering.pre=true
+persist.sys.oppo.log.config=1
+persist.sys.assert.panic=true
+persist.sys.assert.mtklogon=true
+persist.vendor.ssr.enable_ramdumps=1
+persist.sys.enable_wcnss_dump=1
+persist.sys.mdlog_dumpback=2
+
+#Init Env
+
+# OTA
+ro.build.version.ota=CPH1989EXPRE_11.C.18_1180_202101130235
+ro.build.display.ota=CPH1989EXPRE_11_C.18

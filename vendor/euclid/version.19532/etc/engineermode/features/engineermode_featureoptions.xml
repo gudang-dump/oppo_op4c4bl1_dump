@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<features>
+    <!-- BSP feature -->
+    <feature name="com.oppo.eng.otg.support" />
+    <feature name="com.oppo.eng.sdcard.support" />
+    <feature name="com.oppo.eng.type.c.support" />
+    <feature name="com.oppo.eng.vooc.charger.support" />
+    <feature name="com.oppo.eng.smallboard.detect.support" />
+    <feature name="com.oppo.eng.a.smallboard.detect.support" />
+    <feature name="com.oppo.eng.gyroscope.sensor.support" />
+    <feature name="com.oppo.eng.magnetic.sensor.support" />
+    <feature name="com.oppo.eng.gravity.sensor.calibrate.support" />
+    <feature name="com.oppo.eng.proximity.sensor.calibrate.support" />
+    <feature name="com.oppo.eng.light.sensor.calibrate.support" />
+    <feature name="com.oppo.eng.sensor.selftest.support" />
+    <feature name="com.oppo.eng.stepcounter.sensor.support" />
+    <feature name="com.oppo.eng.ship.mode.support" />
+    <feature name="com.oppo.eng.charger.id.voltage.support" />
+    <feature name="com.oppo.eng.screen.light.sensor.support" />
+    <feature name="com.oppo.eng.tp.proximity.support" />
+    <feature name="com.oppo.eng.fake.proximity.support" />
+    <feature name="com.oppo.eng.motor.hall.support" />
+    <feature name="com.oppo.eng.motor.ignore.slow.down.hall.data.support" />
+    <feature name="com.oppo.eng.breath.light.on.motor.support" />
+    <feature name="com.oppo.eng.drm.widevine.support" />
+
+    <!-- Network feature -->
+    <feature name="com.oppo.eng.gemini.support" />
+    <feature name="com.oppo.eng.sim.hot.swap.support" />
+    <feature name="com.oppo.eng.network.air.interface.detect.support" />
+    <feature name="com.oppo.eng.sar.body" value="0.657" />
+    <feature name="com.oppo.eng.sar.head" value="1.170" />
+    <!-- Multimedia feature -->
+    <feature name="com.oppo.eng.smart.pa.calibrate.support" />
+    <!-- Connectivity feature -->
+    <feature name="com.oppo.eng.nfc.ese.support" />
+    <!-- Android feature -->
+    <feature name="com.oppo.eng.production.line.aging.support" />
+    <feature name="com.oppo.eng.navigation.bar.support" />
+    <feature name="com.oppo.eng.standlone.userdata.support" />
+    <feature name="com.oppo.eng.mtk.atm.mode.support" />
+    <feature name="com.oppo.eng.mtk.platform" />
+    <feature name="com.oppo.eng.exp.platform" />
+
+    <feature name="motor.initial.position.hall.data.range" value="-500,0"/>
+    <feature name="motor.hall.default.cali.data" value="-100,-100,-510,50,20,-510"/>
+    <feature name="mmi.irq.cali.mode.hall.one.range" value="-500,0"/>
+    <feature name="mmi.irq.cali.mode.hall.two.range" value="-500,0"/>
+    <feature name="mmi.near.cali.mode.hall.one.range" value="-500,0"/>
+    <feature name="mmi.near.cali.mode.hall.two.range" value="0,70"/>
+    <feature name="mmi.far.cali.mode.hall.one.range" value="0,50"/>
+    <feature name="mmi.far.cali.mode.hall.two.range" value="-500,0"/>
+
+    <feature name="as.manual.irq.cali.mode.hall.one.range" value="-500,-100"/>
+    <feature name="as.manual.irq.cali.mode.hall.two.range" value="-500,-100"/>
+    <feature name="as.manual.near.cali.mode.hall.one.range" value="-500,-150"/>
+    <feature name="as.manual.near.cali.mode.hall.two.range" value="0,0"/>
+    <feature name="as.manual.far.cali.mode.hall.one.range" value="0,0"/>
+    <feature name="as.manual.far.cali.mode.hall.two.range" value="-500,-150"/>
+    <feature name="as.manual.near.slow.down.delta.array" value="70,65,60,55,50,45,40,35,30,25,20"/>
+    <feature name="as.manual.near.slow.down.delta.default.index" value="7"/>
+    <feature name="as.manual.near.irq.delta" value="100"/>
+    <feature name="as.manual.far.slow.down.delta.array" value="70,65,60,55,50,45,40,35,30,25,20"/>
+    <feature name="as.manual.far.slow.down.delta.default.index" value="7"/>
+    <feature name="as.manual.far.irq.delta" value="100"/>
+
+    <feature name="manual.irq.cali.mode.hall.one.range" value="-400,-100"/>
+    <feature name="manual.irq.cali.mode.hall.two.range" value="-400,-100"/>
+    <feature name="manual.near.cali.mode.hall.one.range" value="-460,-160"/>
+    <feature name="manual.near.cali.mode.hall.two.range" value="0,0"/>
+    <feature name="manual.far.cali.mode.hall.one.range" value="0,0"/>
+    <feature name="manual.far.cali.mode.hall.two.range" value="-465,-165"/>
+    <feature name="manual.near.slow.down.delta.array" value="70,65,60,55,50,45,40,35,30,25,20"/>
+    <feature name="manual.near.slow.down.delta.default.index" value="7"/>
+    <feature name="manual.near.irq.delta" value="100"/>
+    <feature name="manual.far.slow.down.delta.array" value="70,65,60,55,50,45,40,35,30,25,20"/>
+    <feature name="manual.far.slow.down.delta.default.index" value="7"/>
+    <feature name="manual.far.irq.delta" value="100"/>
+    <feature name="motor.self.test.near.delta.range" value="0,100"/>
+    <feature name="motor.self.test.far.delta.range" value="0,100"/>
+
+    <feature name="com.oppo.eng.motor.range.detect.hall.one.range" value="0,500" />
+    <feature name="com.oppo.eng.motor.range.detect.hall.two.range" value="0,500" />
+
+    <feature name="com.oppo.eng.motor.hall.calibration.mode" value="CALIBRATION_THREE" />
+</features>

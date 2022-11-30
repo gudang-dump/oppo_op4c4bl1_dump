@@ -1,0 +1,7 @@
+service gift-hal-1-0 /vendor/bin/hw/vendor.oppo.hardware.gift@1.0-service
+    class hal animation
+    user system
+    group graphics drmrpc
+    capabilities SYS_NICE
+    onrestart restart surfaceflinger
+

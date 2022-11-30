@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<res>
+    <default_wallpaper_name>inlay_wallpaper71</default_wallpaper_name>
+    <default_lock_wallpaper_name>inlay_wallpaper71</default_lock_wallpaper_name>
+    <versionCode>700010</versionCode>
+    <wallpaper_file_name_array>
+	    <item>product_wallpaper1</item>
+        <item>product_wallpaper2</item>
+        <item>product_wallpaper3</item>
+        <item>product_wallpaper4</item>
+        <item>product_wallpaper5</item>
+        <item>inlay_wallpaper71</item>
+        <item>inlay_wallpaper72</item>
+        <item>inlay_wallpaper73</item>
+        <item>inlay_wallpaper74</item>
+        <item>inlay_wallpaper75</item>
+        <item>inlay_wallpaper76</item>
+        <item>inlay_wallpaper77</item>
+        <item>inlay_wallpaper78</item>
+        <item>inlay_wallpaper79</item>
+        <item>inlay_wallpaper80</item>
+        <item>inlay_wallpaper81</item>
+        <item>inlay_wallpaper82</item>
+        <item>inlay_wallpaper83</item>
+        <item>inlay_wallpaper84</item>
+        <item>inlay_wallpaper85</item>
+    </wallpaper_file_name_array>
+    <wallpaper_en_name_array>
+	    <item>product_wallpaper1</item>
+        <item>product_wallpaper2</item>
+        <item>product_wallpaper3</item>
+        <item>product_wallpaper4</item>
+        <item>product_wallpaper5</item>
+        <item>Mountain</item>
+        <item>Snow Mountain</item>
+        <item>Colorful</item>
+        <item>Cyan Texture</item>
+        <item>Color</item>
+        <item>Blue Stream</item>
+        <item>Blue Space</item>
+        <item>Dark Blue</item>
+        <item>Forest</item>
+        <item>Desert</item>
+        <item>Future</item>
+        <item>Time and Space</item>
+        <item>Waves</item>
+        <item>Green Beach</item>
+        <item>Snow Mountain</item>
+    </wallpaper_en_name_array>
+    <wallpaper_zh_name_array>
+	    <item>product_wallpaper1</item>
+        <item>product_wallpaper2</item>
+        <item>product_wallpaper3</item>
+        <item>product_wallpaper4</item>
+        <item>product_wallpaper5</item>
+        <item>水墨山色</item>
+        <item>青绿沙滩</item>
+        <item>缤纷色彩</item>
+        <item>青色纹理</item>
+        <item>彩色</item>
+        <item>蓝色流体</item>
+        <item>蓝色空间</item>
+        <item>深蓝</item>
+        <item>森林</item>
+        <item>沙漠</item>
+        <item>未来</item>
+        <item>时空</item>
+        <item>波涛</item>
+        <item>青绿沙滩</item>
+        <item>雪山</item>
+    </wallpaper_zh_name_array>
+    <wallpaper_zh_rTw_name_array>
+	    <item>product_wallpaper1</item>
+        <item>product_wallpaper2</item>
+        <item>product_wallpaper3</item>
+        <item>product_wallpaper4</item>
+        <item>product_wallpaper5</item>
+        <item>水墨山色</item>
+        <item>青綠沙灘</item>
+        <item>繽紛色彩</item>
+        <item>青色紋理</item>
+        <item>彩色</item>
+        <item>藍色流體</item>
+        <item>藍色空間</item>
+        <item>深藍</item>
+        <item>森林</item>
+        <item>沙漠</item>
+        <item>未來</item>
+        <item>時空</item>
+        <item>波濤</item>
+        <item>青綠沙灘</item>
+        <item>雪山</item>
+    </wallpaper_zh_rTw_name_array>
+
+    <wallpaper_file_name_array_id>
+        <item>inlay_wallpaper_id</item>
+		<item>product_wallpaper1</item>
+        <item>product_wallpaper2</item>
+        <item>product_wallpaper3</item>
+        <item>product_wallpaper4</item>
+        <item>product_wallpaper5</item>
+        <item>inlay_wallpaper71</item>
+        <item>inlay_wallpaper72</item>
+        <item>inlay_wallpaper73</item>
+        <item>inlay_wallpaper74</item>
+        <item>inlay_wallpaper75</item>
+        <item>inlay_wallpaper76</item>
+        <item>inlay_wallpaper77</item>
+        <item>inlay_wallpaper78</item>
+        <item>inlay_wallpaper79</item>
+        <item>inlay_wallpaper80</item>
+        <item>inlay_wallpaper81</item>
+        <item>inlay_wallpaper82</item>
+        <item>inlay_wallpaper83</item>
+        <item>inlay_wallpaper84</item>
+        <item>inlay_wallpaper85</item>
+    </wallpaper_file_name_array_id>
+
+    <wallpaper_en_name_array_id>
+        <item>Green Beach</item>
+		<item>product_wallpaper1</item>
+        <item>product_wallpaper2</item>
+        <item>product_wallpaper3</item>
+        <item>product_wallpaper4</item>
+        <item>product_wallpaper5</item>
+        <item>Mountain</item>
+        <item>Snow Mountain</item>
+        <item>Colorful</item>
+        <item>Cyan Texture</item>
+        <item>Color</item>
+        <item>Blue Stream</item>
+        <item>Blue Space</item>
+        <item>Dark Blue</item>
+        <item>Forest</item>
+        <item>Desert</item>
+        <item>Future</item>
+        <item>Time and Space</item>
+        <item>Waves</item>
+        <item>Green Beach</item>
+        <item>Snow Mountain</item>
+    </wallpaper_en_name_array_id>
+</res>

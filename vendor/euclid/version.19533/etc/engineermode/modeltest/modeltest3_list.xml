@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModelTestList>
+    <ModelItem name="TouchPanelAutoTest" />
+    <ModelItem name="LightSensorTest" />
+    <ModelItem name="GravitySensorTest" />
+    <ModelItem name="StepCounterTest" />
+    <ModelItem name="MagneticSensorTest" />
+    <ModelItem name="ProximitySensorTest" />
+    <ModelItem name="GyroscopeSensorTest" />
+    <ModelItem name="KeyTest" />
+    <ModelItem name="HallTest" />
+</ModelTestList>

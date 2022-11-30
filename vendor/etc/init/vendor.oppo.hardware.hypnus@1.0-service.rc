@@ -1,0 +1,9 @@
+service hypnus-hal-1-0 /vendor/bin/hw/vendor.oppo.hardware.hypnus@1.0-service
+    class hal
+    user system
+    group system readproc root
+    oneshot
+
+on property:init.svc.hypnusd=running
+    stop hypnus-hal-1-0
+

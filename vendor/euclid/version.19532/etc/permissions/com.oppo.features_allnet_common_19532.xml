@@ -1,0 +1,62 @@
+<!-- This file is auto-generated.  DO NOT MODIFY. -->
+<permissions>
+    <!-- Fangfang.Hui@PSW.AD.Ota.1058552, 2016/12/08, Add for only support encrypted package to update -->
+    <feature name="oppo.package.encrypt.support.only" />
+    <!-- Jian.Wang@PSW.AD.Fingerprint.1058552, 2017/06/30, Add for Fingerprint -->
+    <feature name="android.hardware.fingerprint" />
+    <feature name="oppo.back.touch.fingerprint.sensor" />
+    <feature name="oppo.hardware.fingerprint.optical.support" />
+    <!-- Xiaori.Yuan@MultiMedia.Display.Feature, 2017/07/04, Add this for protect eyes -->
+    <feature name="oppo.eyeprotect.support" />
+    <!-- Yongxing.Chen@PSW.MM.Display.Feature, 2018/12/11, Add this for not support P-sensor-->
+    <feature name="oppo.autolight.psensor.notsupport" />
+    <feature name="oppo.display.screen.underlightsensor.support" />
+    <!-- Ling.Guo@MultiMedia.Display.Feature, 2017/08/21, Add this for high brightness mode -->
+    <feature name="oppo.high.brightness.support" />
+    <!-- Ling.Guo@MultiMedia.Display.Feature, 2018/02/17, Add for aod-->
+    <feature name="oppo.aod.support" />
+    <!-- Xiaori.Yuan@MM.Display.Service.Feature, 2019/03/01, Modify for AOD -->
+    <feature name="oppo.aod.transparent" />
+    <!-- Zhen.Yue@Display.DS.DC, 2019/04/01, Add this for DC backlight -->
+    <feature name="oppo.display.dcbacklight.support" />
+    <!-- Haiping.Zhong@PSW.AD.BuildConfig.1058552, 2017/08/07, Add for CommonSoft sensor feature step and gyroscope -->
+    <feature name="android.hardware.sensor.stepcounter" />
+    <feature name="android.hardware.sensor.stepdetector" />
+    <!-- Jialin.Pi@Apps.Settings 2017/09/07, feature only not use in 17071 and 17371 in MTK6767 -->
+    <!--<feature name="oppo.breath.light.support" />-->
+    <!-- Changwei.Li@ROM.SDK, 2017/10/12, add support display compat-->
+    <feature name="oppo.display.compat.support" />
+    <!-- Lan.Wang@plf.Framework, 2017/07/12, Add multi app feature -->
+    <feature name="oppo.multiapp.support" />
+    <!-- Fangfang.Hui@PSW.AD.FaceRecognition.1070880, 2017/10/28, Add for Face recognition support -->
+    <feature name="oppo.hardware.face.support" />
+    <feature name="oppo.launcher.download.progress.support" />
+    <!-- ZhiYong@Plf.Framework, 2018/01/31, add for oppo freeform mode -->
+    <feature name="oppo.freeform.support" />
+    <!-- Peng.Zhong@PSW.AD.Input.Motor.1589153, 2018/10/20, Add for motor control -->
+    <feature name="oppo.hardware.motor.support" />
+    <!-- Yugang.Bao@PSW.AD.Input.Motor.1589153, 2019/6/19, Add for motor control -->
+    <feature name="oppo.hardware.motor.breathled.support" />
+    <!-- Yuan.Huang@PSW.CN.WiFi.Basic.SoftAp.1181662, 2018/10/22, Add for AP_STA concurrency feature -->
+    <feature name="oppo.ap.sta.concurrency.support" />
+    <!-- Wenfeng.Li@PSW.AD.OppoFeature.CommonSoft.0, 2018/07/02, Add for oppo market control by nvflag -->
+    <feature name="oppo.oppomarket.flaginstall"/>
+    <!-- #Canjie.Zheng@PSW.AD.OppoFeature.GeminiProximity.1319617, 2018/05/21, Add for Tp Proximity -->
+    <feature name="oppo.proximity.tp.support" />
+    <!-- YanChen@PSW.BSP.Sensor 2019/03/28, feature only use in proximity under led  that need 1s-->
+    <feature name="oppo.proximity.need.delay" />
+    <!-- PengFei.Ma@ROM.Comm.Contacts, 2019/01/09, add for recording app using black waveform-->
+    <feature name="oppo.recording.blackwave.support" />
+    <!-- Jianjun.Dan@ROM.SysApp, 2019/01/02,add for gesture follow support-->
+    <feature name="oppo.common.gesture.follow.support" />
+    <!-- YanChen@PSW.BSP.Sensor 2019/04/02, Add for proximity control-->
+    <feature name="oppo.proximity.under.lcd" />
+    <!-- Xijun.Wang@ROM.SDK, 2019/01/01, add for start and back animation support-->
+    <feature name="oppo.animation.round.support"/>
+    <!-- Wenkan.Zhu@PSW.CN.WiFi.Network.internet.1800709, 2019/01/24, Add for private feature -->
+    <feature name="oppo.wlan.privateDns.support" />
+    <!-- Xiaori.Yuan@PSW.MM.Display.Feature, 2019/01/18, add for appautoresolution -->
+    <feature name="oppo.appautoresolution.support" />
+    <!-- Yizhang.Peng@PSW.AD.OppoFeature.FusionLight.1535903, 2019/02/20, Add for light function -->
+    <feature name="oppo.sensor.fusionlight.support" />
+</permissions>

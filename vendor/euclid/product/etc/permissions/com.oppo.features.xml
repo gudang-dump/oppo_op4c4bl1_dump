@@ -1,0 +1,10 @@
+<!-- This file is used by NX rom.  DO NOT MODIFY. -->
+ 
+<permissions>
+  <!-- YuPin.Bao@ROM.Framework, 2019/11/09, add for hide multi user entry -->
+  <feature name="oppo.multiuser.entry.unsupport" />
+  <!--Dongdong.Zhou@ROM.SysApp, 2020/03/14, Add for support three swipe-up gestures in the shipped version below os7 -->
+  <feature name="coloros.public.systemui.support_moregestureup" />
+  <!-- can.wang@realmeOS.APP, add for navigation bar follow screen rotation -->
+  <feature name="coloros.gesture.range.pinning.support" />
+</permissions>

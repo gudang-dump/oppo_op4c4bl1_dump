@@ -1,0 +1,5 @@
+<!-- This file is used by record input channel choice -->
+<permissions>
+    <feature name="oppo.multimedia.record.channel.support" />
+    <feature name="oppo.multimedia.internal.record" />
+</permissions>

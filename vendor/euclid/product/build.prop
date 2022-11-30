@@ -1,0 +1,96 @@
+# build porp start
+ro.camera.hfr.enable=1
+ro.camera.videoeis.enable=1
+ro.camera.temperature.limit=435
+############################## Add OPPO Info Common Begin ##############################
+persist.sys.oem_smooth=1
+persist.sys.nw_lab_test=0
+persist.sys.cfu_auto=1
+persist.sys.nw_mbn_icon=0
+persist.radio_oppo_ct_volte_support=2
+############################## Add OPPO Info Common End ##############################
+debug.sf.disable_backpressure=1
+ro.oppo.mtk_gps_mpe=1
+persist.bluetooth.disableabsvol=true
+persist.vendor.bt.iotinfo.report.enable=true
+persist.bluetooth.iot.on=true
+persist.bluetooth.dualconnection.supported=false
+ro.build.kernel.id=4.14.141
+ro.build.version.opporom=V7.1
+ro.product.supported_versions=19531 19532 19533
+persist.version.confidential=false
+ro.version.confidential=false
+gr.use.leader=true
+gr.apk.number=5
+gr.download.url=http://otafs.coloros.com/googles/7a3341ea988614321a209c55265d381f
+dalvik.vm.heapmaxfree=16m
+dalvik.vm.heapminfree=4m
+dalvik.vm.heapstartsize=16m
+dalvik.vm.heaptargetutilization=0.75
+ro.reserve1.get=/dev/block/platform/bootdevice/by-name/reserve1
+ro.script.version=1.0
+ro.treble.enabled=true
+persist.sys.oiface.enable=2
+persist.sys.hardcoder.name=oiface
+persist.sys.oiface.feature=oiface:1f,oifaceim:ffffffff
+ro.build.date.Ymd=210113
+ro.build.date.ymd=210113
+ro.build.date.YmdHM=202101130235
+ro.build.date.utc=1610481504
+ro.build.version.incremental=1610481504
+ro.build.date=Wed Jan 13 03:58:24 CST 2021
+ro.build.master.date=202101130235
+ro.build.version.google_patch=20210105
+ro.build.display.id_ims=CPH1989EX_11_C.18_210113
+ro.build.product=CPH1989
+
+# InitEnv
+
+# OTA
+ro.build.version.ota=CPH1989EX_11.C.18_1180_202101130235
+ro.build.display.ota=CPH1989EX_11_C.18
+ro.product.device=OP4C4B
+ro.product.product.brand=OPPO
+ro.product.product.device=OP4C4B
+ro.product.product.manufacturer=OPPO
+ro.product.product.model=CPH1989
+ro.product.product.name=CPH1989EX
+setupwizard.feature.baseline_setupwizard_enabled = true
+############################## Add OPPO Info Common Begin ##############################
+ro.vendor.mtk_protocol1_rat_config=Lf/Lt/W/G
+ro.vendor.mtk_ps1_rat=Lf/Lt/W/G
+ro.vendor.mtk_eccci_c2k=1
+ro.vendor.mtk_c2k_support=0
+ro.vendor.mtk_lte_support=1
+ro.vendor.mtk_md1_support=9
+ro.vendor.mtk_md3_support=0
+ro.vendor.mtk_c2k_lte_mode=0
+############################## Add OPPO Info Common End ##############################
+ro.lcd.backlight.config_boe=11,816,5,246,397,665,912,1177,1473,1627,1890,2047
+ro.lcd.backlight.boe_lsi=11,1086,48,423,602,909,1177,1447,1737,1887,2047,2047
+ro.lcd.backlight.boe_nt=11,1086,48,423,602,909,1177,1447,1737,1887,2047,2047
+ro.lcd.backlight.config_truly=11,816,5,246,397,665,912,1177,1473,1627,1890,2047
+ro.lcd.backlight.truly_himax=11,986,25,368,533,819,1081,1334,1614,1757,2011,2047
+ro.lcd.backlight.config_tianma=11,934,11,337,503,775,1035,1295,1576,1724,1971,2047
+ro.lcd.backlight.tianma_lsi=11,975,26,363,528,813,1065,1321,1602,1744,1998,2047
+ro.lcd.backlight.tianma_nt=11,984,31,370,535,820,1072,1326,1607,1751,2003,2047
+ro.lcd.backlight.tianma_himax=11,984,31,370,535,820,1072,1326,1607,1751,2003,2047
+ro.lcd.backlight.config_dsjm=11,914,11,322,486,756,1011,1268,1550,1690,1931,2047
+ro.lcd.backlight.dsjm_himax_a=11,816,5,246,397,665,912,1177,1473,1627,1890,2047
+ro.lcd.backlight.dsjm_himax_b=11,816,5,246,397,665,912,1177,1473,1627,1890,2047
+ro.lcd.backlight.config_jdi=11,851,7,280,435,699,943,1191,1465,1605,1847,2047
+ro.lcd.backlight.samsung_tenbit=10,189,10,49,77,143,236,369,569,709,1023
+ro.lcd.backlight.config_innolux=11,900,37,394,563,849,1107,1365,1645,1789,2026,2047
+ro.lcd.backlight.config_ilitek=11,900,38,393,560,848,1112,1366,1647,1798,2038,2047
+ro.lcd.backlight.config_hlt_lsi=11,968,20,352,521,807,1061,1317,1598,1742,1989,2047
+ro.lcd.backlight.config_inn_ili=11,920,12,320,483,755,1009,1265,1546,1691,1935,2047
+ro.lcd.backlight.dpt=11,920,12,320,483,755,1009,1265,1546,1691,1935,2047
+ro.lcd.backlight.dpt_himax=11,920,12,320,483,755,1009,1265,1546,1691,1935,2047
+ro.lcd.backlight.djn_himax_b=11,920,12,320,483,755,1009,1265,1546,1691,1935,2047
+ro.display.rc.size=110,110,110,110
+ro.display.underscreen.lightsensor.support=1
+ro.lcd.display.screen.underlightsensor.region=330,184,360,214
+ro.oppo.screen.aod.min=1
+ro.display.arm.dither=1
+ro.oppo.appautoresolution.default=1
+multimedia.audio.effect.type=dolby

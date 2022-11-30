@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<power-monitor-config>
+    <version>20190724</version>
+    <basic.current>4.8</basic.current>
+    <no.sim>3.1</no.sim>
+    <single.sim>14.5</single.sim>
+    <multi.sim>15.3</multi.sim>
+    <wifi.connect.delta>3.1</wifi.connect.delta>
+    <bt.connect.delta>2.2</bt.connect.delta>
+    <wifi.bt.delta>5.5</wifi.bt.delta>
+    <floate.current>0</floate.current>
+</power-monitor-config>

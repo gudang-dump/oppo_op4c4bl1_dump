@@ -1,0 +1,12 @@
+
+<permissions>
+    <feature name="oppo.feature.19531" />
+    <feature name="oppo.eyeprotect.support" />
+    <feature name="oppo.autolight.psensor.notsupport" />
+    <feature name="oppo.display.screen.underlightsensor.support" />
+    <feature name="oppo.high.brightness.support" />
+    <feature name="oppo.aod.support" />
+    <feature name="oppo.aod.transparent" />
+    <feature name="oppo.display.dcbacklight.support" />
+    <feature name="oppo.appautoresolution.support" />
+</permissions>
